@@ -11,10 +11,7 @@ struct Quote2: Codable {
     
     var location_type : String
     var category: String
-  //  var path: String
-    //var hairColor: String
-    // var image: String
-    
+ 
 }
 
 
@@ -30,10 +27,9 @@ struct A3: View {
                     Text(quote.category)
                         .font(.headline)
                    Text(quote.location_type)
-                    //
+                 
                 }
             }
-            
             
             .navigationTitle("")
             .task{

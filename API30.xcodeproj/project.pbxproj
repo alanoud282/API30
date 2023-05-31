@@ -16,6 +16,8 @@
 		195D706E2A269405001CBDDD /* A3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195D706D2A269405001CBDDD /* A3.swift */; };
 		195D70702A269F7B001CBDDD /* A4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195D706F2A269F7B001CBDDD /* A4.swift */; };
 		195D70722A26A763001CBDDD /* A5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195D70712A26A763001CBDDD /* A5.swift */; };
+		1963AAA32A2729B700D4AB2D /* A6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1963AAA22A2729B700D4AB2D /* A6.swift */; };
+		196A29A62A27F67400A04E67 /* A7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A29A52A27F67400A04E67 /* A7.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		195D706D2A269405001CBDDD /* A3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A3.swift; sourceTree = "<group>"; };
 		195D706F2A269F7B001CBDDD /* A4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A4.swift; sourceTree = "<group>"; };
 		195D70712A26A763001CBDDD /* A5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A5.swift; sourceTree = "<group>"; };
+		1963AAA22A2729B700D4AB2D /* A6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A6.swift; sourceTree = "<group>"; };
+		196A29A52A27F67400A04E67 /* A7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A7.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				195D705B2A267484001CBDDD /* API30App.swift */,
+				1963AAA22A2729B700D4AB2D /* A6.swift */,
+				196A29A52A27F67400A04E67 /* A7.swift */,
 				195D70692A2677C5001CBDDD /* A1.swift */,
 				195D706B2A2691EC001CBDDD /* A2.swift */,
 				195D706D2A269405001CBDDD /* A3.swift */,
@@ -154,6 +160,8 @@
 			files = (
 				195D705E2A267484001CBDDD /* ContentView.swift in Sources */,
 				195D705C2A267484001CBDDD /* API30App.swift in Sources */,
+				196A29A62A27F67400A04E67 /* A7.swift in Sources */,
+				1963AAA32A2729B700D4AB2D /* A6.swift in Sources */,
 				195D70702A269F7B001CBDDD /* A4.swift in Sources */,
 				195D706C2A2691EC001CBDDD /* A2.swift in Sources */,
 				195D706E2A269405001CBDDD /* A3.swift in Sources */,

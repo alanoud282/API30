@@ -14,18 +14,22 @@
 
 import SwiftUI
 
-struct Quote0: Codable {
-    
-    var occupation : String
-    var name: String
-    var gender: String
-    var hairColor: String
-    // var image: String
-    
+
+struct Quote6: Codable {
+
+let name: String
+let username: String
+let email: String
+let phone: String
+let website: String
+
 }
 
-struct A1: View {
-    @State private var quotes = [Quote0]()
+
+
+
+struct A6: View {
+    @State private var quotes = [Quote6]()
     
     var body: some View {
         NavigationView {
@@ -37,17 +41,16 @@ struct A1: View {
                     
                     Text(quote.name)
                         .font(.headline)
-                    Text(quote.gender)
-                    //Image(.logo)
-                    Text(quote.hairColor)
-                    Text(quote.occupation)
-                    
+                    Text(quote.username)
+                    Text(quote.email)
+                    Text(quote.website)
+                    Text(quote.phone)
                     
                 }
             }
             
             
-            .navigationTitle("Bob's burgers")
+            .navigationTitle("users ")
             .task{
                 await fetchData()
             }
@@ -56,7 +59,7 @@ struct A1: View {
     }
     
     func fetchData() async {
-        let ApiUrl = "https://bobsburgers-api.herokuapp.com/characters/?limit=9&skip=305"
+        let ApiUrl = "https://jsonplaceholder.typicode.com/users"
         
         guard let url = URL(string: ApiUrl) else {
             print("OH ... THE URL DOES NOT WORK")
@@ -83,7 +86,7 @@ struct A1: View {
             
             print("Data as String: \(dataAsString)")
             
-            let apiData = try JSONDecoder().decode([Quote0].self, from: data)
+            let apiData = try JSONDecoder().decode([Quote6].self, from: data)
             quotes = apiData
             
         } catch {
@@ -93,9 +96,8 @@ struct A1: View {
     
 }
     
-    struct A1_Previews: PreviewProvider {
+    struct A6_Previews: PreviewProvider {
         static var previews: some View {
-            A1()
+            A6()
         }
     }
-
